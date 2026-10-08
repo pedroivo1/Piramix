@@ -1,0 +1,52 @@
+# Pastas geradas pelo Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Builds
+/[Bb]uild/
+/[Bb]uilds/
+/Piramix.x86_64
+/Piramix_Data/
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+/*_BurstDebugInformation_DoNotShip/
+/UnityPlayer.so
+/libdecor*.so*
+*.apk
+*.aab
+*.unitypackage
+
+# Arquivos de projeto gerados pelas IDEs
+.vs/
+.idea/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Meta de pastas/arquivos ignorados
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports e diversos
+sysinfo.txt
+crashlytics-build.properties
+.DS_Store
+Thumbs.db
