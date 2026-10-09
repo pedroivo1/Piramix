@@ -8,7 +8,7 @@ public class Piramix : MonoBehaviour
     [SerializeField] float duracao = 0.25f;
     [SerializeField] float limiarArraste = 12f;
 
-    // eixos = direcoes dos vertices da piramide (referencial local da Piramix)
+    // eixos
     static readonly Vector3[] Eixos =
     {
         new Vector3( 1,  1,  1).normalized,
@@ -48,11 +48,9 @@ public class Piramix : MonoBehaviour
 
     void Update()
     {
-        // Pointer cobre mouse, touchpad, caneta e toque
         var ponteiro = Pointer.current;
         if (ponteiro == null || girando) return;
 
-        // com Alt o arraste gira a camera (CameraOrbita), nao a camada
         if (CameraOrbita.AltPressionado)
         {
             pecaClicada = null;
@@ -145,7 +143,6 @@ public class Piramix : MonoBehaviour
         girando = false;
     }
 
-    // aplica o giro final e encaixa no reticulado para nao acumular erro
     static void Aplicar(Transform p, Quaternion q, Vector3 pos, Quaternion rot)
     {
         Vector3 nova = q * pos / S;
