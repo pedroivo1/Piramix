@@ -24,11 +24,11 @@ Uma Pyraminx (pirâmide tipo cubo mágico, 3 andares) jogável, feita em Unity (
 
 A Pyraminx é um tetraedro de lado 3 dividido em **15 peças**:
 
-| Tipo de peça | Quantidade | Forma |
-|---|---|---|
-| Tetraedros "em pé" | 10 | tetraedro regular de aresta 1 |
-| Octaedros | 4 | octaedro regular de aresta 1 |
-| Tetraedro invertido | 1 | tetraedro regular, no centro (interno) |
+| Tipo de peça        | Quantidade | Forma                                  |
+|---------------------|------------|----------------------------------------|
+| Tetraedros "em pé"  |     10     | tetraedro regular de aresta 1          |
+| Octaedros           |      4     | octaedro regular de aresta 1           |
+| Tetraedro invertido |      1     | tetraedro regular, no centro (interno) |
 
 O jogador:
 
